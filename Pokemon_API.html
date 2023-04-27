@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon API Example</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .pokemon-info {
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid black;
+    }
+    .pokemon-info h2 {
+      margin-top: 0;
+    }
+    .pokemon-info ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .pokemon-info ul li {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    .pagination {
+      margin-top: 1rem;
+    }
+    .pagination button {
+      margin-right: 0.5rem;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="pokemon-list"></div>
+  <div class="pagination">
+    <button id="prev-page" disabled>&lt;&lt; Prev</button>
+    <span id="page-number"></span>
+    <button id="next-page">&gt;&gt; Next</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
